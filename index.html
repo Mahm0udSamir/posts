@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Task</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+
+
+
+
+    <div class="body">
+        <div class="wrapper">
+            <div class="subscribeBox">
+                <form id="subscribeForm" >
+                    <input id="post-title" type="text" value="" placeholder="Post Title.....*" required>
+                    <input id="post-body" type="text" value="" placeholder="Post Body....*" required>
+                    <input class="submit" type="submit" onclick="addPost()" value="Add Post">
+                </form>
+            </div>
+
+            <div id="posts-container">
+                <div id="posts"></div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>
